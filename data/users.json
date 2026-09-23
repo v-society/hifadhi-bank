@@ -1,0 +1,29 @@
+[
+    {
+        "user_id": 1,
+        "name": "ALICE",
+        "email": "m",
+        "account_number": 6992,
+        "set_pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+        "balance": 0,
+        "card_number": 897318
+    },
+    {
+        "user_id": 2,
+        "name": "Brian",
+        "email": "a",
+        "account_number": 3961,
+        "set_pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+        "balance": 3301.0,
+        "card_number": 533214
+    },
+    {
+        "user_id": 1,
+        "name": "Alex",
+        "email": "x",
+        "account_number": 5544,
+        "set_pin": "38083c7ee9121e17401883566a148aa5c2e2d55dc53bc4a94a026517dbff3c6b",
+        "balance": 900.0,
+        "card_number": 563780
+    }
+]
