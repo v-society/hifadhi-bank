@@ -1,0 +1,159 @@
+body{
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    color: aliceblue;
+}
+.logo{
+    position: fixed;
+    color: #05ee09;
+    font-size: 60px;
+    position: fixed;
+    margin-left: 540px;
+}
+
+.atm{
+   
+    height: 100vh;
+    width: 1600px;
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    align-items: left;
+    border-radius: 12px;
+    border: #1492d6 2px solid;
+    box-shadow:-18px 15px 20px rgba(1, 246, 242, 0.2);
+    position : fixed;
+}
+.dialer{
+    margin-top: 60px;
+    margin-left: 500px;
+
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    border-radius: 12px;
+    border: #1492d6 2px solid;
+    box-shadow:-18px 15px 20px rgba(1, 246, 242, 0.2);
+    position : fixed;
+}
+
+.display{
+    background: transparent;
+    height: 30px;
+    width: 350px;
+    border-radius: 20px;
+    border: #1492d6 2px solid;
+    margin: 12px;
+    display: flex;
+    align-items: flex-end;
+    padding: 24px;
+    text-align: right;
+    color: aliceblue;
+    font-size: large;
+}
+.display1{
+    background: transparent;
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    border: #1492d6 2px solid;
+    margin: 12px;
+    display: flex;
+    align-items: flex-end;
+    padding: 24px;
+    text-align: right;
+    color: aliceblue;
+    font-size: large;
+}
+.display::placeholder{
+    color: aliceblue;
+    font-size: 20px;
+}
+.buttons{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 180px;
+    position: relative;
+}
+button{
+    height: 50px;
+    width: 100px;
+    color: #000;
+    background:transparent;
+    margin: 3px;
+    color: aliceblue;
+    border-radius: 20px;
+    border: 2px solid #1492d6;
+    cursor: pointer;
+}
+
+.cash{
+    border: 4px solid #1492d6;
+    height: 600px;
+    width: 400px; 
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.cash-container{
+    background: transparent;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+.balance-wrapper{
+    background: transparent;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #1492d6;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+.card{
+     background: transparent;
+    width: 500px;
+    height: 400px;
+    border: 2px solid #1492d6;
+    margin-top: 10px;
+    border-radius: 12px;
+    margin-left: 580px;
+    margin-top: 50px;
+}
+.bank-card {
+    width: 480px;
+    height: 280px;
+
+    background-image: url(../templates/main-logo.png);
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 10px;
+    border: 2px solid #d4af37;
+    border-radius: 20px;
+
+    box-shadow:
+        0 0 5px #d4af37,
+        0 0 15px rgba(212, 175, 55, 0.7),
+        0 0 30px rgba(212, 175, 55, 0.4);
+    overflow: hidden;
+}
+
+.logo1{
+    background: #d4af37;
+    height: 100px;
+    z-index: -1;
+}
+.img{
+    height: 60px;
+    background-image: url(../templates/logo.png);
+    background-size: cover;
+    overflow: hidden;
+    background-position: left;
+}
+
