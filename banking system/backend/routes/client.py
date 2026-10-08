@@ -31,3 +31,10 @@ def withdraw(account_number, amount):
                 print("Insufficient funds.")
                 return False
     return False
+
+def check_balance(account_number):
+    users = User.load_users()
+    for user in users:
+        if user["account_number"] == account_number:
+            return user["balance"]
+    return None

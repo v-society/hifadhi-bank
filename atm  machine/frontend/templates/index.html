@@ -21,8 +21,21 @@
             </div>
         </div>
         <div class="dialer">
-            <div class="display1" id="display1">
-
+            <div class="display-row">
+                <div class="display1" id="display1" aria-live="polite">
+                    <img class="hifadhi-logo" id="hifadhi-logo" src="../templates/logo.png" alt="Hifadhi Bank logo" hidden>
+                    <div class="atm-menu" id="atm-menu" hidden>
+                        <strong id="atm-menu-title">Authenticate to continue</strong>
+                        <div id="atm-menu-options" hidden>
+                            <div>1. Deposit</div>
+                            <div>2. Withdraw</div>
+                            <div>3. Logout</div>
+                            <div>4. Check balance</div>
+                        </div>
+                        <div id="atm-message" role="status"></div>
+                    </div>
+                </div>
+                <button class="eject-button" id="eject-card" type="button" hidden>Eject card</button>
             </div>
             <input id="display" class="display" disabled placeholder="HIFADHI">
             <div class="buttons">
@@ -52,26 +65,48 @@
                 
                 </div>
             </div>
+            <div class="card-reader-slot" aria-label="Card reader slot"></div>
         </div>
         <div class="card">
              <div class="bank-card">
         <div class="logo1">
             <div class="img">
             </div>
-            <div>strip</div>
-           bank logo and magnetic strip
+            <div class="s"></div>
+           
         </div>
         <div class="classified">
-            <div>chip</div>
-            <div>1234-5678-9012</div>
+            <div class="chip"></div>
+            <div id="card-number-display">1234-5678-9012-3456</div>
         </div>
-        <div class="user">
+        <div class="user" id="name-wrapper">
             name and expirary date
         </div>
     </div>
+    <form class="card-form">
+        <label for="card-number">Card number</label>
+        <div class="card-form-controls">
+            <input id="card-number" name="card_number" type="text" inputmode="numeric" autocomplete="cc-number" placeholder="Enter 6-digit card number" maxlength="6" pattern="[0-9]{6}" title="Enter exactly 6 digits" required>
+            <button type="submit">Submit</button>
+        </div>
+        <p id="card-status" role="status" aria-live="polite"></p>
+        <div class="card-numpad" aria-label="Card number keypad">
+            <button type="button" data-digit="1">1</button>
+            <button type="button" data-digit="2">2</button>
+            <button type="button" data-digit="3">3</button>
+            <button type="button" data-digit="4">4</button>
+            <button type="button" data-digit="5">5</button>
+            <button type="button" data-digit="6">6</button>
+            <button type="button" data-digit="7">7</button>
+            <button type="button" data-digit="8">8</button>
+            <button type="button" data-digit="9">9</button>
+            <button type="button" data-action="clear">Clear</button>
+            <button type="button" data-digit="0">0</button>
+            <button type="button" data-action="delete" aria-label="Delete last digit">Del</button>
+        </div>
+    </form>
         </div>
     </div>    
     <script src="../scipt/script.js"></script>
 </body>
-<script src="scripts.js"></script>
 </html>

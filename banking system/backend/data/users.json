@@ -25,5 +25,14 @@
         "set_pin": "38083c7ee9121e17401883566a148aa5c2e2d55dc53bc4a94a026517dbff3c6b",
         "balance": 900.0,
         "card_number": 563780
+    },
+    {
+        "user_id": 1,
+        "name": "cedric",
+        "email": "m",
+        "account_number": 9803,
+        "set_pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+        "balance": 5101.0,
+        "card_number": 856189
     }
 ]
