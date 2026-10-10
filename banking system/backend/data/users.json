@@ -14,7 +14,7 @@
         "email": "a",
         "account_number": 3961,
         "set_pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
-        "balance": 3301.0,
+        "balance": 2301.0,
         "card_number": 533214
     },
     {
@@ -32,7 +32,7 @@
         "email": "m",
         "account_number": 9803,
         "set_pin": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
-        "balance": 5101.0,
+        "balance": 1.0,
         "card_number": 856189
     }
 ]

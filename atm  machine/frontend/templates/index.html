@@ -13,12 +13,19 @@
     </div>
     <div class="atm">
         <div class="cash">
-            <div class="cash-container">
-                here we add our note images
-            </div>
-            <div class="balance-wrapper">
-                <div>notes counter</div>
-            </div>
+            <section class="cash-section notes-display" aria-labelledby="notes-display-title">
+                <h2 id="notes-display-title">Notes</h2>
+                <div class="notes-output" id="notes-output" aria-live="polite">Cash notes will appear here</div>
+            </section>
+            <section class="cash-section receipt-display" aria-labelledby="receipt-display-title">
+                <h2 id="receipt-display-title">Receipt</h2>
+                <div class="receipt-output" id="receipt-output" aria-live="polite">Your transaction receipt will appear here</div>
+            </section>
+            <section class="cash-section note-counter" aria-labelledby="note-counter-title">
+                <h2 id="note-counter-title">Note counter</h2>
+                <output id="notes-count" aria-live="polite">0</output>
+                <span>notes</span>
+            </section>
         </div>
         <div class="dialer">
             <div class="display-row">
